@@ -66,7 +66,7 @@ const CheckoutForm = () => {
         type="submit"
         disabled={loading}
       >
-        Donate {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
+        Pay {formatAmountForDisplay(input.customDonation, config.CURRENCY)}
       </button>
     </form>
   )
